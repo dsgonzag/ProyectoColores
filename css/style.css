@@ -1,47 +1,80 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     display: block;
     overflow: hidden;
     width: 100%; /* Set width to 100% */
-    min-height: 200px;
+   /* min-height: 200px;
     max-height: 300px;
-    overflow-y: auto;
+    overflow-y: auto; */
     }
-    
-.fondo
-{     background-image: url("../img/2school.png");  
-    margin-left: auto;
-  margin-right: auto;
-   
-  }
+    #tituloIntro{
+        position:relative;
+        width:auto;
+        height:auto;
+        }  
+        #seccionIntro {
+           /* top: -5px;*/
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            overflow:hidden;
+            height: auto;
+            display: block; 
+        }
+        #btnIniciar{
+            position:relative;
+           top:2em;
+           width:10em;
+           display:block; 
+            }
 
-  #imagen{
-    width: 200px;
-    height:200px;
-    display:block;
+         #btnInstrucciones{
+            position:relative;
+           top:2em;
+           width:13em;
+           display:block; 
+            }
+          
+    #fondo
+    {   background-image: url("../img/school.png"); 
+        /* background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: beige ; */
+    
+
+    
+    }
+
+    #imagen1{
+        width: 200px;
+        height:200px;
+        display:block;
+        padding: 2%;
+        margin:auto;
+    
+        
+    }
+    #div1{
+        width: 400px;
+        height: 200px;
+        padding: 10px;
+        border: 2px solid #99A3A4;  
+        background: #EBF5FB;
+        
+    
+        display:block;
     margin:auto;
-  
+
+    }
+    #tabla{
+
+        width: 800px;
+        height: 200px;
     
-  }
-  #div1{
-    width: 400px;
-    height: 200px;
-    padding: 10px;
-    border: 2px solid #99A3A4;  
-    background: #EBF5FB;
-    
-   
-    display:block;
-margin:auto;
+        display:block;
+        margin:auto; 
 
- }
- #tabla{
-
-    width: 400px;
-    height: 200px;
-  
-    display:block;
-    margin:auto; 
-
- }
+    }

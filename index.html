@@ -1,44 +1,50 @@
 
 <!DOCTYPE html>
 <html> 
-       <head> 
-       	    <meta charset="utf-8">
-            <title>Cromática del colores</title>
-            <link  rel="stylesheet" type="text/css" href="./css/style.css">
-            
-       </head>
-   <body class="fondo">
-    <header>
-      <table id="tabla"> 
-        <tr> 
-               <td align="center">
-                <h3>CROMÁTICA DE COLORES</h3>  
-                <div id="div1" ondragover="allowDrop(event)" ondrop="drop(event)"></div><br>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Proyecto Colores</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link href="./css/bootstrap.min.css" rel="stylesheet" >
+        
+        <script src="js/jquery.js"></script>
 
-                
-               </td> 
-        </tr> 
-        <tr>
-          <td>
-              <img id="imagen" src="./img/oso.png" draggable="false" ondragstart="drag(event)">
-          </td>
-          <td>
-              <img id="imagen" src="./img/paleta_rosa.png" draggable="false" ondragstart="drag(event)">
-          </td>
-          <td>
-              <img id="imagen" src="./img/sol.png" draggable="true" ondragstart="drag(event)">
-          </td>
-      </tr>
-        </table>     
-    </header>  
+    </head>
+   
+   <body id="fondo">
+      <header>
+        <!-- sección de intro-->
+          <section id="seccionIntro">
+             <center>
+                <img class="img-fluid" src="./img/titulo.png" id="tituloIntro">
+                  
+                  
+             </center>
+             
+       </header>  
+       <center>
+          <a href="#"><img class="img-fluid" src="./img/BotonInstrucciones.png" id="btnInstrucciones"></a>
+      </center>
+      <center>
+          <a href="#"><img class="img-fluid" src="./img/BotonJugar.png" id="btnIniciar"></a>
+      </center> 
+       
+   </section>
+    
           
            
            
            <script type="text/javascript" src="./js/main.js"></script>
-           <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+           <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
            <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-           <script src="js/bootstrap.js"></script>
-           <script src="js/bootstrap.min.js"></script>
+         <!--   <script src="js/bootstrap.js"></script>
+           <script src="js/bootstrap.min.js"></script> -->
    </body>
    
 </html>	 

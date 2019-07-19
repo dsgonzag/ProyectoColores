@@ -35,6 +35,13 @@ body {
            width:13em;
            display:block; 
             }
+
+            #btnSiguiente{
+              
+              
+               width:10em;
+             position: relative;
+                }
           
     #fondo
     {   background-image: url("../img/school.png"); 
